@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 
-cap = cv2.VideoCapture('./videos/vtest.avi')
+cap = cv2.VideoCapture('./videos/tree.avi')
 _,frame1 = cap.read()
 _,frame2 = cap.read()
 
