@@ -6,7 +6,7 @@ import numpy as np
 img = cv2.imread('./images/lena.jpg',cv2.IMREAD_GRAYSCALE)
 
 # Canny edge detection
-canny = cv2.Canny(img,100,200,)
+canny = cv2.Canny(img,100,200)
 
 titles = ['Original','Canny']
 images = [img,canny]
