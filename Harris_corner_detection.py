@@ -18,7 +18,7 @@ dailate = cv2.dilate(dst,None)
 print("dst: ",dst)
 print("len: ",str(len(img[dst > 0.01 * dst.max()])))
 # reverting back to original img
-img[dst > 0.01 * dst.max()] = [0,0,255]
+img[dst > 0.01 * dst.max()] = [0,255,0]
 cv2.imshow('image',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
